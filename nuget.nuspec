@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+    <metadata>
+        <version>3.0.0-beta.1</version>
+        <id>datatables.net-editor-se</id>
+        <description>This is Editor for DataTables with styling for [SemanticUI](https://semantic-ui.com/)</description>
+        <authors>SpryMedia Ltd</authors>
+        <projectUrl>https://datatables.net</projectUrl>
+        <license type="file">License.txt</license>
+        <tags>Editing  CRUD  Inline  Modal  Multi-row  Semantic  SemanticUI  Semantic UI  Datatables table</tags>
+        <dependencies>
+            <dependency id="datatables.net-editor" version="3.0.0-beta.1"/>
+            <dependency id="datatables.net-se" version="3.0.0-0"/>
+        </dependencies>
+        <contentFiles>
+            <files include="**/*" buildAction="Content"/>
+        </contentFiles>
+        <readme>Readme.md</readme>
+    </metadata>
+    <files>
+        <file src="Readme.md" target=""/>
+        <file src="js/editor.semanticui.js" target="content\Scripts"/>
+        <file src="js/editor.semanticui.js" target="contentFiles\any\any\wwwroot\js"/>
+        <file src="js/editor.semanticui.min.js" target="content\Scripts"/>
+        <file src="js/editor.semanticui.min.js" target="contentFiles\any\any\wwwroot\js"/>
+        <file src="js/editor.semanticui.min.mjs" target="content\Scripts"/>
+        <file src="js/editor.semanticui.min.mjs" target="contentFiles\any\any\wwwroot\js"/>
+        <file src="js/editor.semanticui.mjs" target="content\Scripts"/>
+        <file src="js/editor.semanticui.mjs" target="contentFiles\any\any\wwwroot\js"/>
+        <file src="css/editor.semanticui.css" target="content\Content"/>
+        <file src="css/editor.semanticui.css" target="contentFiles\any\any\wwwroot\css"/>
+        <file src="css/editor.semanticui.min.css" target="content\Content"/>
+        <file src="css/editor.semanticui.min.css" target="contentFiles\any\any\wwwroot\css"/>
+    </files>
+</package>

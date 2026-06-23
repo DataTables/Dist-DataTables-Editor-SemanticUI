@@ -1,0 +1,18 @@
+{
+    "js": [
+        "js/editor.semanticui.js",
+        "js/editor.semanticui.min.js",
+        "js/editor.semanticui.min.mjs",
+        "js/editor.semanticui.mjs"
+    ],
+    "css": [
+        "css/editor.semanticui.css",
+        "css/editor.semanticui.min.css"
+    ],
+    "types": [
+
+    ],
+    "src-repo": "http://github.com/DataTables/Editor",
+    "last-tag": "2.5.2",
+    "last-sync": ""
+}

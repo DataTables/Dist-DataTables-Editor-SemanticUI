@@ -1,0 +1,40 @@
+{
+    "name": "datatables.net-editor-se",
+    "description": "Editor for DataTables with styling for [SemanticUI](https://semantic-ui.com/)",
+    "main": "js/editor.semanticui.js",
+    "module": "js/editor.semanticui.mjs",
+    "style": "css/editor.semanticui.css",
+    "types": "./types/editor.semanticui.d.ts",
+    "version": "3.0.0-beta.1",
+    "files": [
+        "css/**/*.css",
+        "js/**/*.js",
+        "js/**/*.mjs",
+        "types/**/*.d.ts"
+    ],
+    "keywords": [
+        "Editing",
+        "CRUD",
+        "Inline",
+        "Modal",
+        "Multi-row",
+        "Semantic",
+        "SemanticUI",
+        "Semantic UI",
+        "Datatables",
+        "table",
+        "filter",
+        "sort"
+    ],
+    "dependencies": {
+        "datatables.net-editor": "3.0.0-beta.1",
+        "datatables.net-se": "3.0.0-0"
+    },
+    "author": {
+        "name": "SpryMedia Ltd",
+        "url": "http://datatables.net"
+    },
+    "homepage": "https://datatables.net",
+    "bugs": "https://datatables.net/forums",
+    "license": "SEE LICENSE IN License.txt"
+}
