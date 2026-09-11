@@ -1,4 +1,4 @@
-/*! Editor Fomantic styling 3.0.1 for DataTables
+/*! Editor Fomantic styling 3.0.2 for DataTables
  * Copyright (c) SpryMedia Ltd - https://datatables.net/license/plus
  */
 
