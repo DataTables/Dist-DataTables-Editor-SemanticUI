@@ -39,9 +39,10 @@
     "exports": {
         ".": {
             "types": "./types/editor.semanticui.d.ts",
+            "style": "./css/editor.semanticui.css",
             "import": "./js/editor.semanticui.mjs",
-            "default": "./js/editor.semanticui.mjs",
-            "require": "./js/editor.semanticui.js"
+            "require": "./js/editor.semanticui.js",
+            "default": "./js/editor.semanticui.mjs"
         },
         "./js/*": "./js/*",
         "./css": {
